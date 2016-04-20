@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/example-node":{"guestpath":"/var/www/example-node","hostpath":"/home/hhollenstain/muzli/test/node-js-sample","disabled":false,"__vagrantfile":true}}}

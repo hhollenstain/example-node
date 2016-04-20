@@ -1,0 +1,20 @@
+---
+driver:
+  name: vagrant
+  synced_folders:
+    - ["../node-js-sample", "/var/www/example-node"]
+  network:
+    - ["private_network", {ip: "192.168.10.10"}]
+  customize:
+    memory: 1024
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+- name: example-node
+  run_list:
+    - recipe[example-node::default]

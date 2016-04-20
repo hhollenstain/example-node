@@ -1,0 +1,5 @@
+default['nodejs']['version'] = '4.2.3'
+default['nodejs']['install_method'] = 'binary'
+default['nodejs']['npm']['version'] = '3.3.0'
+#default['nodejs']['npm']['install_method'] = 'source'
+default['nodejs']['binary']['checksum'] = '644d4c0b206ebcb75383fbe42f6025e7253a61992816289359d0f4dcdb6087d7'
